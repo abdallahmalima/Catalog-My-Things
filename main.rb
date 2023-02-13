@@ -1,32 +1,27 @@
+# rubocop:disable Metrics/CyclomaticComplexity
+
 def menu(inputs)
   puts inputs
-  choice=gets.chomp.to_i
+  choice = gets.chomp.to_i
   case choice
-  when 1
-   puts "all books"
-  when 2
-    puts "all music albums"
-  when 3
-    puts "all games"
-  when 4
-    puts "all genres"
-  when 5
-    puts "all labels"
-  when 6
-    puts "all authors"
-  when 7
-    puts "Add Book Selected"
-  when 8
-    puts "Add Music Album Selected"
-  when 9
-    puts "Add Game Selected"
-  when 10
-    return false
+  when 1 then puts 'all books'
+  when 2 then puts 'all music albums'
+  when 3 then puts 'all games'
+  when 4 then puts 'all genres'
+  when 5 then puts 'all labels'
+  when 6 then puts 'all authors'
+  when 7 then puts 'Add Book Selected'
+  when 8 then puts 'Add Music Album Selected'
+  when 9 then puts 'Add Game Selected'
+  when 10 then return false
   else
     puts 'Please enter a valid input'
   end
   true
 end
+
+# rubocop:enable Metrics/CyclomaticComplexity
+
 
 def main
   puts "\nWelcome to Catalog of my things!\n"
@@ -43,10 +38,9 @@ def main
     "9 - Add a game\n" \
     "10 - Exit\n"
 
-    flag = true
-    flag = menu(inputs) while flag
-    puts "Thanks for using our application"
-
+  flag = true
+  flag = menu(inputs) while flag
+  puts 'Thanks for using our application'
 end
 
 main
