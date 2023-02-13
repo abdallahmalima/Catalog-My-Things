@@ -22,7 +22,6 @@ end
 
 # rubocop:enable Metrics/CyclomaticComplexity
 
-
 def main
   puts "\nWelcome to Catalog of my things!\n"
   inputs =
