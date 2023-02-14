@@ -1,13 +1,12 @@
+require('./music_album')
 class Genre
-  attr_accessor :id, :name
-  attr_reader :items
+  attr_accessor :name
+  attr_reader :id, :items
 
   def initialize(id, name)
     @id = id
     @name = name
     @items = []
-
-    private :id, :items
   end
 
   def add_item(item)

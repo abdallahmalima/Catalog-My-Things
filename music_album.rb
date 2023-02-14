@@ -1,6 +1,7 @@
 require('./item')
+
 class MusicAlbum < Item
-  def intialize(id, publish_date, archived: false, on_spotify: false)
+  def initialize(id, publish_date, archived, on_spotify)
     super(id, publish_date, archived: archived)
     @on_spotify = on_spotify
   end
