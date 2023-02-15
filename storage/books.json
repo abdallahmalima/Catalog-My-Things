@@ -1,0 +1,23 @@
+[
+  {
+    "id": 145,
+    "publish_date": "14",
+    "archived": false,
+    "publisher": "mimi",
+    "cover_state": "bad"
+  },
+  {
+    "id": 134,
+    "publish_date": "17",
+    "archived": false,
+    "publisher": "keenan",
+    "cover_state": "good"
+  },
+  {
+    "id": 917,
+    "publish_date": "19",
+    "archived": false,
+    "publisher": "sisi",
+    "cover_state": "bad"
+  }
+]

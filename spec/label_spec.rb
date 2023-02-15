@@ -6,6 +6,7 @@ describe Label do
   let(:label) { Label.new }
   let(:item) { Book.new(1, 14, true, '2021', 'good') }
 
+
   describe '#initialize' do
     it 'initializes with an empty items array' do
       expect(label.instance_variable_get(:@items)).to eq([])
