@@ -1,5 +1,6 @@
 require 'json'
 require('./book')
+require('./label_repository')
 class BookRepository
   def initialize
     @books = []
@@ -24,8 +25,10 @@ class BookRepository
       'publish_date' => map[:publish_date],
       'archived' => false,
       'publisher' => map[:publisher],
-      'cover_state' => map[:cover_state]
+      'cover_state' => map[:cover_state],
+      'label' => map[:label].title
     }
+
     save_book(book)
     puts "\nBook created successfully"
   end
