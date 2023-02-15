@@ -14,7 +14,7 @@ describe MusicAlbum do
   end
 
   describe '#can_be_archived?' do
-    let(:album) { MusicAlbum.new(101, 11, true, true) }
+    let(:album) { MusicAlbum.new(101, '2012-01-01', true, true) }
 
     context 'when the album is on Spotify' do
       it 'returns true' do
