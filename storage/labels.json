@@ -1,50 +1,7 @@
 [
   {
-    "id": 1,
-    "title": "title-1",
+    "id": 425,
+    "title": "Paint",
     "color": "blue"
-  },
-  {
-    "id": 1,
-    "title": "title-2",
-    "color": "red"
-  },
-  {
-    "id": 578,
-    "title": "Art",
-    "color": "yellow",
-    "item": [
-
-    ]
-  },
-  {
-    "id": 340,
-    "title": "music",
-    "color": "red"
-  },
-  {
-    "id": 856,
-    "title": "Painting",
-    "color": "Brown"
-  },
-  {
-    "id": 967,
-    "title": "Web",
-    "color": "black"
-  },
-  {
-    "id": 584,
-    "title": "Html",
-    "color": "red"
-  },
-  {
-    "id": 20,
-    "title": "ttttt",
-    "color": "ccccc"
-  },
-  {
-    "id": 824,
-    "title": "fffff",
-    "color": "vvvvv"
   }
 ]

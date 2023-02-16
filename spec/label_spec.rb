@@ -3,8 +3,8 @@ require('./item')
 require('./label')
 
 describe Label do
-  let(:label) { Label.new }
-  let(:item) { Book.new(1, 14, true, '2021', 'good') }
+  let(:label) { Label.new(1, 'Art', 'red') }
+  let(:item) { Book.new(1, '2021-01-23', true, '2021-02-30', 'good') }
 
   describe '#initialize' do
     it 'initializes with an empty items array' do

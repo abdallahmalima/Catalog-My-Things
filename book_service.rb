@@ -35,7 +35,7 @@ class BookService
     print "0)Create a new label:\n"
 
     label_index = gets.chomp.to_i
-    my_label = labels[label_index - 1]
+    my_label = labels[label_index - 1] if label_index.positive?
     my_label = @label_service.create if label_index.zero?
     book_map = { publish_date: publish_date,
                  publisher: publisher,

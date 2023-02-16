@@ -7,7 +7,7 @@ class LabelService
 
   def index
     if @labels.length.eql?(0)
-      puts 'There is no books '
+      puts 'There are no labels'
     else
       count = 1
 

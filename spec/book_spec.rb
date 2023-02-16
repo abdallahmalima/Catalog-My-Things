@@ -3,14 +3,14 @@ require('./item')
 require('./book')
 
 RSpec.describe Book do
-  let(:book) { Book.new(1, 14, true, '2021', 'good') }
+  let(:book) { Book.new(1, '2011-01-24', true, 'Abdallah', 'good') }
 
   describe '#initialize' do
     it 'sets the book id, publish date, archive status, publisher and cover state' do
       expect(book.id).to eq(1)
-      expect(book.publish_date).to eq(14)
+      expect(book.publish_date).to eq('2011-01-24')
       expect(book.archived).to be_truthy
-      expect(book.publisher).to eq('2021')
+      expect(book.publisher).to eq('Abdallah')
       expect(book.cover_state).to eq('good')
     end
   end
