@@ -1,18 +1,22 @@
 # rubocop:disable Metrics/CyclomaticComplexity
+require('./game_display')
+require('./author_display')
 
 def menu(inputs)
+  game_display = GameDisplay.new
+  author_display = AuthorDisplay.new
   puts inputs
   choice = gets.chomp.to_i
   case choice
   when 1 then puts 'all books'
   when 2 then puts 'all music albums'
-  when 3 then puts 'all games'
+  when 3 then game_display.index
   when 4 then puts 'all genres'
   when 5 then puts 'all labels'
-  when 6 then puts 'all authors'
+  when 6 then author_display.index
   when 7 then puts 'Add Book Selected'
   when 8 then puts 'Add Music Album Selected'
-  when 9 then puts 'Add Game Selected'
+  when 9 then game_display.create
   when 10 then return false
   else
     puts 'Please enter a valid input'

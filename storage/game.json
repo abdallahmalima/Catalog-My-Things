@@ -1,0 +1,42 @@
+[
+  {
+    "id": 631,
+    "publish_date": "2020",
+    "archived": false,
+    "multiplayer": "yes",
+    "last_played_at": "2020-04-08",
+    "author": "#<Author:0x00000155d4e08258>"
+  },
+  {
+    "id": 485,
+    "publish_date": "2010",
+    "archived": false,
+    "multiplayer": "no",
+    "last_played_at": "2023",
+    "author": null
+  },
+  {
+    "id": 329,
+    "publish_date": "2020",
+    "archived": false,
+    "multiplayer": "no",
+    "last_played_at": "2050",
+    "author": null
+  },
+  {
+    "id": 707,
+    "publish_date": "2050",
+    "archived": false,
+    "multiplayer": "50",
+    "last_played_at": "20",
+    "author": "#<Author:0x00000155d4e63220>"
+  },
+  {
+    "id": 527,
+    "publish_date": "2020",
+    "archived": false,
+    "multiplayer": "202",
+    "last_played_at": "2020",
+    "author": "john "
+  }
+]
