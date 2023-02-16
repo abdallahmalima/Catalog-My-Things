@@ -1,3 +1,5 @@
+require('./music_album_service')
+require('./genre_service')
 require('./game_display')
 require('./author_display')
 require('./book_service')
@@ -8,8 +10,16 @@ def menu(inputs)
   author_display = AuthorDisplay.new
   book_service = BookService.new
   label_service = LabelService.new
+  music_album_service = MusicAlbumService.new
+  genre_service = GenreService.new
   puts inputs
-  options(game_display, author_display, book_service, label_service)
+  options_map = { game_display: game_display,
+                  author_display: author_display,
+                  book_service: book_service,
+                  label_service: label_service,
+                  music_album_service: music_album_service,
+                  genre_service: genre_service }
+  options(options_map)
 end
 
 def main
@@ -33,18 +43,18 @@ def main
 end
 
 # rubocop:disable Metrics/CyclomaticComplexity
-def options(game_display, author_display, book_service, label_service)
+def options(options_map)
   choice = gets.chomp.to_i
   case choice
-  when 1 then book_service.index
-  when 2 then puts 'all music albums'
-  when 3 then game_display.index
-  when 4 then puts 'all genres'
-  when 5 then label_service.index
-  when 6 then author_display.index
-  when 7 then book_service.create
-  when 8 then puts 'Add Music Album Selected'
-  when 9 then game_display.create
+  when 1 then options_map[:book_service].index
+  when 2 then options_map[:music_album_service].index
+  when 3 then options_map[:game_display].index
+  when 4 then options_map[:genre_service].index
+  when 5 then options_map[:label_service].index
+  when 6 then options_map[:author_display].index
+  when 7 then options_map[:book_service].create
+  when 8 then options_map[:music_album_service].create
+  when 9 then options_map[:game_display].create
   when 10 then return false
   else
     puts 'Please enter a valid input'
