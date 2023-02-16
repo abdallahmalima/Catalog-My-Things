@@ -1,17 +1,20 @@
 # rubocop:disable Metrics/CyclomaticComplexity
-
+require('./music_album_service')
+require('./genre_service')
 def menu(inputs)
+  music_album_service = MusicAlbumService.new
+  genre_service = GenreService.new
   puts inputs
   choice = gets.chomp.to_i
   case choice
   when 1 then puts 'all books'
-  when 2 then puts 'all music albums'
+  when 2 then music_album_service.index
   when 3 then puts 'all games'
-  when 4 then puts 'all genres'
+  when 4 then genre_service.index
   when 5 then puts 'all labels'
   when 6 then puts 'all authors'
   when 7 then puts 'Add Book Selected'
-  when 8 then puts 'Add Music Album Selected'
+  when 8 then music_album_service.create
   when 9 then puts 'Add Game Selected'
   when 10 then return false
   else
