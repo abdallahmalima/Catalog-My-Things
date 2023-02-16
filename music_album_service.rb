@@ -37,7 +37,7 @@ class MusicAlbumService
     print "0)Create a new genre:\n"
 
     genre_index = gets.chomp.to_i
-    my_genre = genres[genre_index - 1] if genres.length.positive?
+    my_genre = genres[genre_index - 1] if genre_index.positive?
     my_genre = @genre_service.create if genre_index.zero?
     music_album_map = { publish_date: publish_date,
                         on_spotify: on_spotify,

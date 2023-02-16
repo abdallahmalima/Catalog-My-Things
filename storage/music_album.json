@@ -1,3 +1,16 @@
 [
-  
+  {
+    "id": 9,
+    "publish_date": "2020-01-01",
+    "archived": false,
+    "on_spotify": true,
+    "genre": "Jazz"
+  },
+  {
+    "id": 827,
+    "publish_date": "2011-01-01",
+    "archived": false,
+    "on_spotify": false,
+    "genre": "Pop"
+  }
 ]
