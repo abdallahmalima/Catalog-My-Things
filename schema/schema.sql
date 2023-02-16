@@ -1,0 +1,12 @@
+CREATE TABLE Genre (
+    id SERIAL PRIMARY KEY,
+	name VARCHAR(100) NOT NULL
+)
+
+CREATE TABLE MusicAlbum (
+    id SERIAL PRIMARY KEY,
+	publish_date DATE NOT NULL,
+	archived BOOLEAN NOT NULL,
+	on_spotify BOOLEAN NOT NULL,
+	genre_ID INT REFERENCES Genre(ID)
+)
