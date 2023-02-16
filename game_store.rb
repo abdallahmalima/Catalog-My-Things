@@ -39,7 +39,6 @@ class GameStore
 
     parse_file << game
 
-
     File.write('./storage/game.json', JSON.pretty_generate(parse_file))
   end
 end
