@@ -18,7 +18,6 @@ describe Item do
     end
   end
 
-
   describe '#can_be_archived?' do
     let(:item) { Item.new(101, '2012-01-01') }
 
