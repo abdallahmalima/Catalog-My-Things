@@ -12,5 +12,12 @@
     "archived": false,
     "on_spotify": false,
     "genre": "Pop"
+  },
+  {
+    "id": 160,
+    "publish_date": "2020-01-01",
+    "archived": false,
+    "on_spotify": true,
+    "genre": "Khusnidin"
   }
 ]

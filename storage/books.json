@@ -1,0 +1,18 @@
+[
+  {
+    "id": 792,
+    "publish_date": "2023-01-25",
+    "archived": false,
+    "publisher": "Me",
+    "cover_state": "bad",
+    "label": "Paint"
+  },
+  {
+    "id": 451,
+    "publish_date": "2020-01-01",
+    "archived": false,
+    "publisher": "Me",
+    "cover_state": "good",
+    "label": "Art"
+  }
+]
