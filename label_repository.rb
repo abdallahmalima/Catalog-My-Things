@@ -6,7 +6,7 @@ class LabelRepository
   end
 
   def all
-    file = File.open('storage\labels.json', 'r')
+    file = File.open('storage/labels.json', 'r')
     data = file.read
     parsed_data = JSON.parse(data)
 
@@ -31,12 +31,12 @@ class LabelRepository
   private
 
   def save_label(label)
-    file = File.open('storage\labels.json', 'r')
+    file = File.open('storage/labels.json', 'r')
     data = file.read
     parsed_data = JSON.parse(data)
 
     parsed_data << label
 
-    File.write('storage\labels.json', JSON.pretty_generate(parsed_data))
+    File.write('storage/labels.json', JSON.pretty_generate(parsed_data))
   end
 end

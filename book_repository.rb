@@ -7,7 +7,7 @@ class BookRepository
   end
 
   def all
-    file = File.open('storage\books.json', 'r')
+    file = File.open('storage/books.json', 'r')
     data = file.read
     parsed_data = JSON.parse(data)
 
@@ -36,12 +36,12 @@ class BookRepository
   private
 
   def save_book(book)
-    file = File.open('storage\books.json', 'r')
+    file = File.open('storage/books.json', 'r')
     data = file.read
     parsed_data = JSON.parse(data)
 
     parsed_data << book
 
-    File.write('storage\books.json', JSON.pretty_generate(parsed_data))
+    File.write('storage/books.json', JSON.pretty_generate(parsed_data))
   end
 end

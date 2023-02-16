@@ -3,5 +3,10 @@
     "id": 425,
     "title": "Paint",
     "color": "blue"
+  },
+  {
+    "id": 220,
+    "title": "Art",
+    "color": "yellow"
   }
 ]
