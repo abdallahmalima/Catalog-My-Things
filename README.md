@@ -25,13 +25,8 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
+<div align="center" font-size="30px">
+  <h3><b>Catalog of my things</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -60,36 +55,36 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Catalog of my things
 
-> Describe your project in 1 or 2 sentences.
+<a name="about-project"></a>
 
-**[your_project__name]** is a...
+**Catalog of my things** is a console app that helps us to keep a record of different types of things we own: books, music albums, movies, and games. Everything is be based on the UML class diagram. The data is be stored in JSON files.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+- Ruby
+- VSCode
+- Rubocop
+- PostgreSQL
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
@@ -97,11 +92,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Add music albums**
+- **Add books**
+- **Add movies**
+- **Add games**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +103,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,9 +111,23 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+### Setup
 
 To get a local copy up and running, follow these steps.
+
+git clone https://github.com/abdallahmalima/Catalog-My-Things.git <Your-Build-Directory>
+
+cd Catalog-My-Things.git
+
+### Install
+
+### Usage
+
+To run the project, execute the following command:
+
+Install this project with:
+
+Run test.rb on your terminal By Using IRB
 
 ### Prerequisites
 
@@ -131,13 +137,10 @@ In order to run this project you need:
 Example command:
 
 ```sh
- gem install rails
-```
- -->
+ gem install ruby
+````
 
-### Setup
-
-Clone this repository to your desired folder:
+-->
 
 <!--
 Example commands:
@@ -148,10 +151,6 @@ Example commands:
 ```
 --->
 
-### Install
-
-Install this project with:
-
 <!--
 Example command:
 
@@ -160,10 +159,6 @@ Example command:
   gem install
 ```
 --->
-
-### Usage
-
-To run the project, execute the following command:
 
 <!--
 Example command:
@@ -175,6 +170,8 @@ Example command:
 
 ### Run tests
 
+run on your terminal test.rb
+
 To run tests, run the following command:
 
 <!--
@@ -185,9 +182,9 @@ Example command:
 ```
 --->
 
-### Deployment
+<!-- ### Usage
 
-You can deploy this project using:
+To run the project, execute the following command: -->
 
 <!--
 Example:
@@ -203,19 +200,22 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Abdallah Antony**
 
-👤 **Author1**
+- GitHub: [@githubhandle](https://github.com/abdallahmalima)
+- Twitter: [@obwombe_kennedy](https://twitter.com/Softmal1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdallah-malima-antony/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Khusniddin Ismoilov**
 
-👤 **Author2**
+- GitHub: [@KIsmoilov](https://github.com/KIsmoilov)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/khusniddin-ismoilov-185575157/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Keenan Botes**
+
+- GitHub: [@keebot-png](https://github.com/keebot-png)
+- Twitter: [@KeenanBotes](https://twitter.com/KeenanBotes)
+- LinkedIn: [kee.bot@icloud.com](https://www.linkedin.com/in/keenan-botes-947043160)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +223,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Edit or delete existing inputs**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,15 +233,13 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/abdallahmalima/Catalog-My-Things/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project...
 
@@ -255,25 +249,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,8 +257,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

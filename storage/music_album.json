@@ -1,0 +1,37 @@
+[
+  {
+    "id": 9,
+    "publish_date": "2020-01-01",
+    "archived": false,
+    "on_spotify": true,
+    "genre": "Jazz"
+  },
+  {
+    "id": 827,
+    "publish_date": "2011-01-01",
+    "archived": false,
+    "on_spotify": false,
+    "genre": "Pop"
+  },
+  {
+    "id": 160,
+    "publish_date": "2020-01-01",
+    "archived": false,
+    "on_spotify": true,
+    "genre": "Khusnidin"
+  },
+  {
+    "id": 461,
+    "publish_date": "2020-01-01",
+    "archived": false,
+    "on_spotify": true,
+    "genre": "Rock"
+  },
+  {
+    "id": 251,
+    "publish_date": "2023-02-02",
+    "archived": false,
+    "on_spotify": true,
+    "genre": "Rock"
+  }
+]
