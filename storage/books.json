@@ -14,5 +14,13 @@
     "publisher": "Me",
     "cover_state": "good",
     "label": "Art"
+  },
+  {
+    "id": 738,
+    "publish_date": "2020-02-01",
+    "archived": false,
+    "publisher": "Abdallah",
+    "cover_state": "good",
+    "label": "Art"
   }
 ]
